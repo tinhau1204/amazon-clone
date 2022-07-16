@@ -2,6 +2,7 @@ import React from 'react'
 import './Subtotal.css'
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from '../StateProvider';
+import { Link } from 'react-router-dom';
 function Subtotal() {
     const [{basket}, dispatch] = useStateValue();
 
@@ -31,8 +32,9 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={'$'}
         />
-
+        <Link to='/payment'>
         <button type="button" className='subtotal__button'>Proceed to Checkout</button>
+        </Link>
     </div>
   )
 }

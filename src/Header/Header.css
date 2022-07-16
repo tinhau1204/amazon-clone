@@ -64,11 +64,7 @@
     margin: 0 10px;
 }
 
-a {
+.header_nav>a {
     text-decoration: none;
     color: white;
-}
-
-a:hover {
-    color: #cd9042;
 }

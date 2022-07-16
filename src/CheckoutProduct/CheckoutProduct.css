@@ -21,10 +21,6 @@
     padding: 2px;
 }
 
-button:hover {
-    background: #cf713e;
-}
-
 .checkoutProduct__image {
     width: 180px;
     height: 180px;
